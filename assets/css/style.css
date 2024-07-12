@@ -1,0 +1,30 @@
+#Quienes-somos {
+    padding: 3rem;
+    color: white;
+    background-color: black;
+}
+
+
+#Destacados {
+    padding: 3rem;
+    color: white;
+    background-color: black;
+}
+
+#Contacto {
+    padding: 3rem;
+    color: white;
+    background-color: black;
+}
+
+footer {
+    color: white;
+    background-color: aqua;
+
+}
+
+.icon {
+    background-color: aqua;
+    color: white;
+    text-align: center;
+}
