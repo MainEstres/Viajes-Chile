@@ -1,30 +1,62 @@
 #Quienes-somos {
-    padding: 3rem;
+    padding: 7rem;
     color: white;
     background-color: black;
 }
 
 
 #Destacados {
-    padding: 3rem;
+    padding: 7rem;
     color: white;
     background-color: black;
 }
 
 #Contacto {
-    padding: 3rem;
+    padding: 7rem;
     color: white;
     background-color: black;
 }
 
 footer {
     color: white;
-    background-color: aqua;
+    background-color: deepskyblue;
 
 }
 
 .icon {
-    background-color: aqua;
+    background-color: deepskyblue;
     color: white;
     text-align: center;
+}
+#NavBar {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 9999;
+}
+
+.img-card {
+    object-fit: cover;
+    height: 220px;
+
+}
+
+#Destacados h2 {
+    padding-bottom: 4rem;
+}
+
+#Contacto h2 {
+    padding-bottom: 4rem ;
+}
+
+#Quienes-somos h2 {
+    padding-bottom: 4rem;
+}
+ 
+#navbarNav {
+    align-items: end; 
+}
+
+.card-body {
+    background-color: deepskyblue;
+    color: white;
 }
