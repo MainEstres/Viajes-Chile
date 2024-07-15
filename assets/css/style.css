@@ -60,3 +60,8 @@ footer {
     background-color: deepskyblue;
     color: white;
 }
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}

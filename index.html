@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viajes Chile</title>
+    <link rel="icon" href="assets/img/viajes.svg">
     <!--BootStrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/bbc23c7a9f.js" crossorigin="anonymous"></script>
     <!--Mi css-->
@@ -34,13 +40,13 @@
                             <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Quiénes somos</a>
+                            <a class="nav-link text-white" href="#Quienes-somos">Quiénes somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Destacados</a>
+                            <a class="nav-link text-white" href="#Destacados">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contacto</a>
+                            <a class="nav-link text-white" href="#Contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -76,7 +82,7 @@
     <!--Fin Carrusel-->
 
     <!--Section Quienes somos-->
-    <section id="Quienes-somos">
+    <section class="d-sm-none d-md-block" id="Quienes-somos">
         <div class="container">
             <div>
                 <h2 class="text-center">
@@ -87,7 +93,8 @@
             <div class="row">
                 <div class="col-md-4">
 
-                    <div data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Viajes Economicos" class="icon p-2">
+                    <div data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Viajes Economicos"
+                        class="icon p-2">
                         <i class="fa-solid fa-plane fa-2x"></i>
                     </div>
 
@@ -123,14 +130,16 @@
                         nobis quam at suscipit veritatis impedit corrupti accusamus vel cupiditate deleniti, minus
                         laudantium molestias consectetur velit labore?
 
-                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Lugares Hermosos" class="icon p-2">
+                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Lugares Hermosos"
+                        class="icon p-2">
                         <i class="fa-solid fa-mountain fa-2x"></i>
                     </div>
 
                 </div>
 
                 <div class="col-md-4">
-                    <div data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Rutas Innolvidables" class="icon p-2">
+                    <div data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Rutas Innolvidables"
+                        class="icon p-2">
                         <i class="fa-solid fa-route fa-2x"></i>
                     </div>
 
@@ -167,7 +176,7 @@
                     <div class="card h-100">
                         <img src="assets/img/card1.jpg" class="card-img-top img-card" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Card title 1</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -178,7 +187,7 @@
                     <div class="card h-100">
                         <img src="assets/img/card2.jpg" class="card-img-top img-card" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Card title 2</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -189,7 +198,7 @@
                     <div class="card h-100">
                         <img src="assets/img/card3.jpg" class="card-img-top img-card" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Card title 3</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content.</p>
@@ -200,7 +209,7 @@
                     <div class="card h-100">
                         <img src="assets/img/card4.jpg" class="card-img-top img-card" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Card title 4</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to
                                 additional content. This content is a little bit longer.</p>
@@ -281,6 +290,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
 
     <!--Mi Script-->
     <script src="assets\js\script.js"></script>
